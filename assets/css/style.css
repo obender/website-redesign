@@ -1,0 +1,66 @@
+.active {
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: fixed;
+  /* transition: all 0.2s; */
+}
+
+.active .nav-link {
+  color: #00aa63;
+}
+
+.active .add-to {
+  background-color: #00aa63;
+  color: #fff;
+}
+
+.underborder::after {
+  content: "";
+  position: absolute;
+  left: 3px;
+  bottom: -0.3rem;
+  width: 4.5rem;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+@media screen and (max-width: 1023px) {
+  .nav .nav-link {
+    color: #00aa63;
+    margin-bottom: 0.4rem;
+  }
+
+  .nav {
+    position: absolute;
+    left: 0;
+    top: 5.5rem;
+    z-index: 300;
+    transform: translateX(-100rem);
+    border-top: 2px solid #00aa63;
+    padding-top: 0.5rem;
+  }
+  .add-to {
+    background-color: #00aa63;
+    color: #fff !important;
+  }
+}
+
+.nav-active {
+  transform: translateX(0) !important;
+  transition: ease-in-out 0.3s;
+}
+.slick-dots li {
+  width: auto;
+}
+.slick-dot {
+  width: 1rem;
+  height: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  display: block;
+  margin-right: 0.3rem;
+}
+
+.slick-active .slick-dot {
+  width: 2rem;
+}

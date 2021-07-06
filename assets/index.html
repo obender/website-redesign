@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Safe Deal</title>
+ 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+
+    <!-- Slick CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Slick CSS  -->
+
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="font-sans bg-white">
+    <!-- Header Wrapper  -->
+    <section class="relative overflow-hidden">
+      <img
+        src="./images/path-1.png"
+        alt="path"
+        class="
+          absolute
+          right-0
+          top-0
+          z-[-1]
+          w-1/3
+          xl:w-3/5
+          h-full
+          xl:block
+          hidden
+        "
+      />
+      <img
+        src="./images/big-logo.png"
+        alt="big logo"
+        class="
+          absolute
+          top-0
+          -right-20
+          md:-right-48
+          max-w-[12rem]
+          md:max-w-md
+          xl:max-w-3xl
+          z-[-1]
+          xl:block
+          hidden
+        "
+      />
+      <header
+        class="
+          header
+          py-3
+          xl:py-5
+          sticky
+          top-0
+          left-0
+          right-0
+          w-full
+          z-10
+          px-4
+          bg-white
+          lg:bg-transparent
+        "
+      >
+        <div class="lg:container mx-auto">
+          <div class="flex lg:flex-row flex-col items-center">
+            <!-- Logo  -->
+            <div
+              class="logo w-full lg:w-auto flex justify-between items-center"
+            >
+              <a href="/" class="flex flex-nowrap items-center text-fourth">
+                <img src="./images/logo.png" alt="logo" class="w-16" /><span
+                  class="font-bold text-2xl uppercase"
+                  >Safe Deal</span
+                ></a
+              >
+              <!-- Nav  -->
+              <button class="lg:hidden navBtn">
+                <img src="./images/bars-solid.svg" alt="Bar" class="w-8 h-8" />
+              </button>
+            </div>
+            <!-- Logo  -->
+
+            <nav
+              class="w-full lg:w-auto lg:ml-auto nav bg-white lg:bg-transparent"
+            >
+              <ul
+                class="
+                  lg:flex
+                  text-fourth
+                  lg:text-white
+                  items-center
+                  lg:pl-0
+                  pl-4
+                  lg:pb-0
+                  pb-4
+                "
+              >
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block px-2 mr-4 xl:mr-8 text-lg nav-link"
+                    >Features</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block px-2 mr-4 xl:mr-8 text-lg nav-link"
+                    >Mission</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block px-2 mr-4 xl:mr-8 text-lg nav-link"
+                    >Blog</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="inline-block px-2 mr-4 xl:mr-8 text-lg nav-link"
+                    >Support</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="
+                      inline-block
+                      text-lg text-fourth
+                      bg-white
+                      rounded-xl
+                      px-6
+                      py-2
+                      add-to
+                    "
+                    >Add to Chromoe</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <!-- Nav  -->
+          </div>
+        </div>
+      </header>
+      <div class="container mx-auto px-3">
+        <div class="grid lg:grid-cols-2 mt-20 pb-40 xl:pb-60 items-center">
+          <div class="lg:order-1 order-2 smLpr-0 pr-12">
+            <h1 class="text-3xl md:text-5xl xl:text-7xl font-black text-black">
+              Shop Online with Confidence
+            </h1>
+            <p class="text-2xl md:text-4xl text-secondary my-6 lg:my-12">
+              Safe Deal protects you from online security issues.
+            </p>
+            <a
+              href="#"
+              class="
+                inline-block
+                text-white
+                bg-primary
+                rounded-xl
+                px-8
+                text-2xl
+                md:text-3xl
+                py-3
+                mt-0
+              "
+              >Add to Chromoe</a
+            >
+          </div>
+          <div class="lg:order-2 order-1">
+            <h2 class="text-4xl md:text-6xl xl:text-9xl lg:text-white">
+              <span class="text-xs block">Absolutely </span>
+              Free extention
+            </h2>
+            <img src="./images/icons.png" alt="icon" class="block" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header Wrapper  -->
+
+    <!-- How to -->
+    <section class="xl:pb-80 md:pb-60 pb-20 px-4">
+      <div class="container mx-auto">
+        <div class="p">
+          <h2 class="text-3xl md:text-5xl font-bold text-black">How to Use</h2>
+          <span class="w-20 h-1 bg-primary inline-block"></span>
+          <div class="grid lg:grid-cols-3 gap-6 mt-32">
+            <!-- 1 -->
+            <div class="relative self-start">
+              <img src="./images/group-1.png" alt="group" class="w-full" />
+              <div
+                class="
+                  w-full
+                  absolute
+                  top-16
+                  sm:top-24
+                  lg:top-10
+                  xl:top-20
+                  lg:left-4
+                "
+              >
+                <p class="font-bold text-five text-xl">
+                  <img
+                    src="./images/unnamed.png"
+                    alt="safe deal"
+                    class="w-8 inline-block"
+                  />
+                  Safe-Deal: Your Online Shopping Advisor
+                </p>
+                <div class="text-right mt-6">
+                  <a
+                    href="#"
+                    class="
+                      inline-block
+                      bg-[#1972E7]
+                      px-8
+                      py-4
+                      rounded-xl
+                      text-white
+                    "
+                    >Add to Chrome</a
+                  >
+                </div>
+              </div>
+              <div class="flex items-center mt-10 xl:ml-20">
+                <span
+                  class="
+                    text-3xl
+                    lg:text-6xl
+                    text-primary
+                    w-24
+                    px-12
+                    bg-contain bg-no-repeat
+                    h-24
+                    flex
+                    items-center
+                    justify-center
+                    mr-8
+                    border-2 border-dashed border-primary
+                    rounded-full
+                  "
+                  >1</span
+                >
+                <p class="text-2xl">Add extension to your browser</p>
+              </div>
+              <img
+                src="./images/path-5.png"
+                alt="path"
+                class="absolute -bottom-8 -right-12 lg:block hidden"
+              />
+            </div>
+            <!-- 2 -->
+            <div class="relative">
+              <img src="./images/group-2.png" alt="group" class="w-full" />
+              <div class="flex items-center mt-4 lg:ml-6">
+                <span
+                  class="
+                    text-3xl
+                    lg:text-6xl
+                    text-primary
+                    w-24
+                    bg-contain bg-no-repeat
+                    h-24
+                    px-12
+                    flex
+                    items-center
+                    justify-center
+                    mr-8
+                    rounded-full
+                    border-2 border-dashed border-primary
+                  "
+                  >2</span
+                >
+                <p class="text-2xl">Visit ebay, Amazon or AliExpress</p>
+              </div>
+              <img
+                src="./images/path-5.png"
+                alt="path"
+                class="absolute bottom-0 -right-10 lg:block hidden"
+              />
+            </div>
+            <!-- 3 -->
+            <div class="w">
+              <div class="relative">
+                <img src="./images/group-5.png" alt="group" class="w-full" />
+                <p
+                  class="
+                    text-fourth text-xs
+                    absolute
+                    right-0
+                    w-full
+                    text-right
+                    pr-[5%]
+                    sm:pr-[10%]
+                    top-[51%]
+                  "
+                >
+                  <img
+                    src="./images/unnamed.png"
+                    alt="safe deal"
+                    class="w-6 inline-block"
+                  />
+                  100% safe to buy
+                </p>
+              </div>
+
+              <div class="flex items-center mt-12 xl:mt-24 lg:ml-4">
+                <span
+                  class="
+                    text-3xl
+                    lg:text-6xl
+                    text-primary
+                    w-24
+                    bg-contain bg-no-repeat
+                    h-24
+                    flex
+                    px-12
+                    items-center
+                    justify-center
+                    mr-8
+                    border-2 border-dashed border-primary
+                    rounded-full
+                  "
+                  >3</span
+                >
+                <p class="text-2xl">Chose the best with Safe deal</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- How to -->
+
+    <!-- Find Fair  -->
+    <section class="py-20 lg:py-40 px-4 relative">
+      <img
+        src="./images/path-3.png"
+        alt="path"
+        class="
+          absolute
+          left-0
+          bottom-0
+          md:bottom-auto md:top-0
+          xl:max-w-[30rem]
+          z-[-1]
+          xl:block
+          hidden
+        "
+      />
+      <div class="container mx-auto">
+        <div class="grid md:grid-cols-2 items-center gap-8 lg:gap-20">
+          <div
+            class="
+              shadow-2xl
+              px-6
+              py-10
+              bg-white
+              rounded-3xl
+              md:mb-0
+              mb-8
+              md:order-1
+              order-2
+            "
+          >
+            <img src="./images/fair.png" alt="fair" class="w-full" />
+          </div>
+          <div class="w-full xl:w-1/2 mx-auto order-1 md:order-2">
+            <p class="font-bold text-3xl lg:text-5xl mb-12 text-primary">01</p>
+            <h2 class="text-4xl lg:text-6xl text-fourth mb-8">
+              Find fair price
+            </h2>
+            <p class="text-2xl lg:text-3xl text-tirtiary mb-6">
+              Avoid fake discount - buy best price
+            </p>
+            <a href="#" class="font-bold text-fourth text-xl inline-block"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Find Fair  -->
+    <!-- Check seller rating -->
+    <section class="py-20 md:py-32 px-4 relative overflow-hidden">
+      <img
+        src="./images/path-8.png"
+        alt="path"
+        class="
+          absolute
+          bottom-0
+          md:bottom-auto md:top-0
+          max-w-[20rem]
+          md:max-w-[30rem]
+          xl:max-w-[42rem]
+          -right-20
+          z-[-1]
+        "
+      />
+      <div class="container mx-auto">
+        <div class="grid md:grid-cols-2 items-center gap-8 lg:gap-20">
+          <div class="w-full xl:w-1/2 mx-auto">
+            <p
+              class="font-bold text-3xl lg:text-5xl mb-6 lg:mb-12 text-primary"
+            >
+              02
+            </p>
+            <h2 class="text-4xl lg:text-6xl text-fourth mb-8">
+              Check seller rating
+            </h2>
+            <p class="text-2xl lg:text-3xl text-tirtiary mb-6">
+              Seller reliability ratings will help you to buy safely
+            </p>
+            <a href="#" class="font-bold text-fourth text-xl inline-block"
+              >Learn more</a
+            >
+          </div>
+          <div class="shadow-2xl px-6 py-10 bg-white rounded-3xl md:mb-0 mb-8">
+            <img src="./images/check-seller.png" alt="fair" class="w-full" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Choose an alternative -->
+    <section class="pt-32 px-4 relative overflow-hidden">
+      <div class="container mx-auto">
+        <div class="grid md:grid-cols-2 items-center gap-8 lg:gap-20 mb-40">
+          <div
+            class="
+              shadow-2xl
+              px-6
+              py-10
+              bg-white
+              rounded-3xl
+              md:mb-0
+              mb-8
+              md:order-1
+              order-2
+            "
+          >
+            <img src="./images/c.png" alt="fair" class="w-full" />
+          </div>
+          <div class="w-full xl:w-1/2 ml-auto md:order-2 order-1">
+            <p
+              class="font-bold text-3xl lg:text-5xl mb-6 xl:mb-12 text-primary"
+            >
+              03
+            </p>
+            <h2 class="text-4xl lg:text-6xl text-fourth mb-8">
+              Choose an alternative
+            </h2>
+            <p class="text-2xl md:text-3xl text-tirtiary mb-6">
+              For each product you can quickly find similar ones, even cheaper!
+            </p>
+            <a href="#" class="font-bold text-fourth text-xl inline-block"
+              >Learn more</a
+            >
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/path-9.png"
+        alt="path"
+        class="
+          absolute
+          bottom-24
+          -left-32
+          max-w-[20rem]
+          md:max-w-[30rem]
+          xl:max-w-[42rem]
+          z-[-1]
+        "
+      />
+    </section>
+    <!-- Choose an alternative -->
+
+    <!-- As Senn as  -->
+    <section class="pt-20 pb-8 px-4">
+      <div class="container mx-auto">
+        <h2 class="text-3xl md:text-5xl font-bold text-black">As seen as</h2>
+        <span class="w-20 h-1 bg-primary inline-block"></span>
+        <img src="./images/muitiple.png" alt="muitiple" class="w-full block" />
+      </div>
+    </section>
+    <!-- As Senn as  -->
+    <!-- Safe deal  -->
+    <section
+      class="pt-60 pb-40 md:pb-60 xl:pb-96 text-center -mb-40 px-4"
+      style="background-image: url('./images/path-2.png')"
+    >
+      <div class="container mx-auto">
+        <div class="max-w-2xl mx-auto pt-20 lg:pt-60">
+          <h2 class="text-2xl sm:text-3xl text-fourth">
+            Add
+            <img
+              src="./images/unnamed.png"
+              alt="logo"
+              class="w-10 sm:w-12 inline-block"
+            />
+            <span class="font-bold">Safe Deal</span> to your brower now to
+            choose the best products on
+          </h2>
+          <div
+            class="
+              flex
+              sm:flex-row
+              flex-col
+              justify-between
+              items-center
+              mt-6
+              mb-12
+            "
+          >
+            <img
+              src="./images/AliExpress-Logo.png"
+              alt="AliExpress"
+              class="block w-48"
+            />
+            <img src="./images/aa.png" alt="amazon" class="block w-40 h-12" />
+            <img src="./images/ebay.png" alt="ebay" class="block w-36" />
+          </div>
+          <a
+            href="#"
+            class="inline-block px-8 py-3 text-white bg-primary rounded-xl"
+            >Add to Chrome</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Safe deal  -->
+
+    <!-- SLider  -->
+    <section
+      class="py-60 px-4 text-white bg-cover bg-no-repeat"
+      style="background-image: url('./images/subtraction.png')"
+    >
+      <div class="container mx-auto">
+        <div class="text-censter mb-32">
+          <h2 class="text-3xl md:text-5xl text-center">
+            <span class="underborder relative"> What people say</span>
+          </h2>
+        </div>
+        <div class="slick-slider xl:w-1/2 mx-auto">
+          <!-- Slider Item  -->
+          <div class="slider mb-12">
+            <div
+              class="grid md:grid-cols-4 items-center max-w-xl mx-auto gap-4"
+            >
+              <div class="col-span-1">
+                <img
+                  src="./images/john.png"
+                  alt="john"
+                  class="block w-full mb-3"
+                />
+                <h5 class="font-bold text-2xl text-current">John Doe</h5>
+              </div>
+              <div class="col-span-3">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                  sint hic, sit nobis qui rem iure iste quod soluta debitis enim
+                  repudiandae et, eligendi tempore? Inventore alias dolorem quam
+                  sapiente! Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. IpsamLorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Ipsam
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slider Item  -->
+          <!-- Slider Item  -->
+          <div class="slider mb-12">
+            <div
+              class="grid md:grid-cols-4 items-center max-w-xl mx-auto gap-4"
+            >
+              <div class="col-span-1">
+                <img
+                  src="./images/john.png"
+                  alt="john"
+                  class="block w-full mb-3"
+                />
+                <h5 class="font-bold text-2xl text-current">Logan Paul</h5>
+              </div>
+              <div class="col-span-3">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                  sint hic, sit nobis qui rem iure iste quod soluta debitis enim
+                  repudiandae et, eligendi tempore? Inventore alias dolorem quam
+                  sapiente! Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. IpsamLorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Ipsam
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slider Item  -->
+          <!-- Slider Item  -->
+          <div class="slider mb-12">
+            <div
+              class="grid md:grid-cols-4 items-center max-w-xl mx-auto gap-4"
+            >
+              <div class="col-span-1">
+                <img
+                  src="./images/john.png"
+                  alt="john"
+                  class="block w-full mb-3"
+                />
+                <h5 class="font-bold text-2xl text-current">John Smith</h5>
+              </div>
+              <div class="col-span-3">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam
+                  sint hic, sit nobis qui rem iure iste quod soluta debitis enim
+                  repudiandae et, eligendi tempore? Inventore alias dolorem quam
+                  sapiente! Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. IpsamLorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Ipsam
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Slider Item  -->
+        </div>
+      </div>
+    </section>
+    <!-- SLider  -->
+
+    <!-- Footer  -->
+    <footer class="py-12 text-fourth px-3" style="background-color: #dffbef">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row justify-between">
+          <div class="w-full md:w-1/2 xl:w-1/4 order-2 md:order-1">
+            <h6 class="text-fourth font-bold text-xl mb-6">Safe Deal</h6>
+            <p>All rights reserved @2021</p>
+          </div>
+          <div
+            class="w-full md:w-1/2 xl:w-1/4 order-1 md:order-2 mb-10 md:mb-0"
+          >
+            <h6 class="text-fourth font-bold text-xl mb-6">Download Free</h6>
+            <div class="flex">
+              <ul class="mr-6">
+                <li><a href="#" class="mb-2 block text-lg">Opera</a></li>
+                <li>
+                  <a href="#" class="mb-2 block text-lg">Microsoft Edge</a>
+                </li>
+                <li>
+                  <a href="#" class="mb-2 block text-lg">Yandex Browser</a>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <a href="#" class="mb-2 block text-lg">Google Chrome</a>
+                </li>
+                <li>
+                  <a href="#" class="mb-2 block text-lg">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#" class="mb-2 block text-lg">User Agreement</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer  -->
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script>
+      const header = document.querySelector(".header");
+      const navBtn = document.querySelector(".navBtn");
+      const nav = document.querySelector(".nav");
+
+      window.onscroll = function () {
+        scroll();
+      };
+      function scroll() {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          header.classList.add("active");
+        } else [header.classList.remove("active")];
+      }
+
+      navBtn.addEventListener("click", () => {
+        nav.classList.toggle("nav-active");
+      });
+      $(document).ready(function () {
+        $(".slick-slider").slick({
+          infinite: true,
+          slidesToShow: 4,
+          slidesToScroll: 3,
+          arrows: false,
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 1500,
+          speed: 2000,
+          customPaging: function (slider, i) {
+            return '<span class="slick-dot"></span>';
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
