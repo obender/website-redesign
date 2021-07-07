@@ -1,0 +1,7 @@
+export { default as FindFair } from "./FindFair"
+export { default as HowTo } from "./HowTo"
+export { default as ChooseAlternative } from "./ChooseAlternative"
+export { default as AsSeenAs } from "./AsSeenAs"
+export { default as CheckSellerRating } from "./CheckSellerRating"
+export { default as SafeDeal } from "./SafeDeal"
+export { default as Slider } from "./Slider"
